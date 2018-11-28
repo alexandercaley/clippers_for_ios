@@ -13,6 +13,8 @@
 		A4913BD421AE565700E7DB77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4913BD321AE565700E7DB77 /* Assets.xcassets */; };
 		A4913BD721AE565700E7DB77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4913BD521AE565700E7DB77 /* LaunchScreen.storyboard */; };
 		A4913BE221AE565700E7DB77 /* ClippersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4913BE121AE565700E7DB77 /* ClippersTests.swift */; };
+		A4913BEE21AE578F00E7DB77 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A4913BEC21AE578F00E7DB77 /* LICENSE */; };
+		A4913BEF21AE578F00E7DB77 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A4913BED21AE578F00E7DB77 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		A4913BDD21AE565700E7DB77 /* ClippersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClippersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4913BE121AE565700E7DB77 /* ClippersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClippersTests.swift; sourceTree = "<group>"; };
 		A4913BE321AE565700E7DB77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4913BEC21AE578F00E7DB77 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A4913BED21AE578F00E7DB77 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 		A4913BC021AE565500E7DB77 = {
 			isa = PBXGroup;
 			children = (
+				A4913BEC21AE578F00E7DB77 /* LICENSE */,
+				A4913BED21AE578F00E7DB77 /* README.md */,
 				A4913BCB21AE565500E7DB77 /* Clippers */,
 				A4913BE021AE565700E7DB77 /* ClippersTests */,
 				A4913BCA21AE565500E7DB77 /* Products */,
@@ -179,6 +185,8 @@
 			files = (
 				A4913BD721AE565700E7DB77 /* LaunchScreen.storyboard in Resources */,
 				A4913BD421AE565700E7DB77 /* Assets.xcassets in Resources */,
+				A4913BEF21AE578F00E7DB77 /* README.md in Resources */,
+				A4913BEE21AE578F00E7DB77 /* LICENSE in Resources */,
 				A4913BD221AE565500E7DB77 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
