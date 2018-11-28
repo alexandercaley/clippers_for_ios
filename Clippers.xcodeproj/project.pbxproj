@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4913BCD21AE565500E7DB77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4913BCC21AE565500E7DB77 /* AppDelegate.swift */; };
+		A4913BCF21AE565500E7DB77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4913BCE21AE565500E7DB77 /* ViewController.swift */; };
+		A4913BD221AE565500E7DB77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4913BD021AE565500E7DB77 /* Main.storyboard */; };
+		A4913BD421AE565700E7DB77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4913BD321AE565700E7DB77 /* Assets.xcassets */; };
+		A4913BD721AE565700E7DB77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4913BD521AE565700E7DB77 /* LaunchScreen.storyboard */; };
+		A4913BE221AE565700E7DB77 /* ClippersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4913BE121AE565700E7DB77 /* ClippersTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4913BDE21AE565700E7DB77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4913BC121AE565500E7DB77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4913BC821AE565500E7DB77;
+			remoteInfo = Clippers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4913BC921AE565500E7DB77 /* Clippers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clippers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4913BCC21AE565500E7DB77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4913BCE21AE565500E7DB77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4913BD121AE565500E7DB77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4913BD321AE565700E7DB77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4913BD621AE565700E7DB77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4913BD821AE565700E7DB77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4913BDD21AE565700E7DB77 /* ClippersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClippersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4913BE121AE565700E7DB77 /* ClippersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClippersTests.swift; sourceTree = "<group>"; };
+		A4913BE321AE565700E7DB77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4913BC621AE565500E7DB77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4913BDA21AE565700E7DB77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4913BC021AE565500E7DB77 = {
+			isa = PBXGroup;
+			children = (
+				A4913BCB21AE565500E7DB77 /* Clippers */,
+				A4913BE021AE565700E7DB77 /* ClippersTests */,
+				A4913BCA21AE565500E7DB77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4913BCA21AE565500E7DB77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4913BC921AE565500E7DB77 /* Clippers.app */,
+				A4913BDD21AE565700E7DB77 /* ClippersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4913BCB21AE565500E7DB77 /* Clippers */ = {
+			isa = PBXGroup;
+			children = (
+				A4913BCC21AE565500E7DB77 /* AppDelegate.swift */,
+				A4913BCE21AE565500E7DB77 /* ViewController.swift */,
+				A4913BD021AE565500E7DB77 /* Main.storyboard */,
+				A4913BD321AE565700E7DB77 /* Assets.xcassets */,
+				A4913BD521AE565700E7DB77 /* LaunchScreen.storyboard */,
+				A4913BD821AE565700E7DB77 /* Info.plist */,
+			);
+			path = Clippers;
+			sourceTree = "<group>";
+		};
+		A4913BE021AE565700E7DB77 /* ClippersTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4913BE121AE565700E7DB77 /* ClippersTests.swift */,
+				A4913BE321AE565700E7DB77 /* Info.plist */,
+			);
+			path = ClippersTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4913BC821AE565500E7DB77 /* Clippers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4913BE621AE565700E7DB77 /* Build configuration list for PBXNativeTarget "Clippers" */;
+			buildPhases = (
+				A4913BC521AE565500E7DB77 /* Sources */,
+				A4913BC621AE565500E7DB77 /* Frameworks */,
+				A4913BC721AE565500E7DB77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clippers;
+			productName = Clippers;
+			productReference = A4913BC921AE565500E7DB77 /* Clippers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4913BDC21AE565700E7DB77 /* ClippersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4913BE921AE565700E7DB77 /* Build configuration list for PBXNativeTarget "ClippersTests" */;
+			buildPhases = (
+				A4913BD921AE565700E7DB77 /* Sources */,
+				A4913BDA21AE565700E7DB77 /* Frameworks */,
+				A4913BDB21AE565700E7DB77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4913BDF21AE565700E7DB77 /* PBXTargetDependency */,
+			);
+			name = ClippersTests;
+			productName = ClippersTests;
+			productReference = A4913BDD21AE565700E7DB77 /* ClippersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4913BC121AE565500E7DB77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Alexander Caley";
+				TargetAttributes = {
+					A4913BC821AE565500E7DB77 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					A4913BDC21AE565700E7DB77 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A4913BC821AE565500E7DB77;
+					};
+				};
+			};
+			buildConfigurationList = A4913BC421AE565500E7DB77 /* Build configuration list for PBXProject "Clippers" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4913BC021AE565500E7DB77;
+			productRefGroup = A4913BCA21AE565500E7DB77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4913BC821AE565500E7DB77 /* Clippers */,
+				A4913BDC21AE565700E7DB77 /* ClippersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4913BC721AE565500E7DB77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4913BD721AE565700E7DB77 /* LaunchScreen.storyboard in Resources */,
+				A4913BD421AE565700E7DB77 /* Assets.xcassets in Resources */,
+				A4913BD221AE565500E7DB77 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4913BDB21AE565700E7DB77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4913BC521AE565500E7DB77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4913BCF21AE565500E7DB77 /* ViewController.swift in Sources */,
+				A4913BCD21AE565500E7DB77 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4913BD921AE565700E7DB77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4913BE221AE565700E7DB77 /* ClippersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4913BDF21AE565700E7DB77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4913BC821AE565500E7DB77 /* Clippers */;
+			targetProxy = A4913BDE21AE565700E7DB77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4913BD021AE565500E7DB77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4913BD121AE565500E7DB77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4913BD521AE565700E7DB77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4913BD621AE565700E7DB77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4913BE421AE565700E7DB77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4913BE521AE565700E7DB77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4913BE721AE565700E7DB77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9UD9RX3CY;
+				INFOPLIST_FILE = Clippers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexandercaley.Clippers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4913BE821AE565700E7DB77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9UD9RX3CY;
+				INFOPLIST_FILE = Clippers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexandercaley.Clippers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4913BEA21AE565700E7DB77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9UD9RX3CY;
+				INFOPLIST_FILE = ClippersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexandercaley.ClippersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clippers.app/Clippers";
+			};
+			name = Debug;
+		};
+		A4913BEB21AE565700E7DB77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9UD9RX3CY;
+				INFOPLIST_FILE = ClippersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexandercaley.ClippersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clippers.app/Clippers";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4913BC421AE565500E7DB77 /* Build configuration list for PBXProject "Clippers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4913BE421AE565700E7DB77 /* Debug */,
+				A4913BE521AE565700E7DB77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4913BE621AE565700E7DB77 /* Build configuration list for PBXNativeTarget "Clippers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4913BE721AE565700E7DB77 /* Debug */,
+				A4913BE821AE565700E7DB77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4913BE921AE565700E7DB77 /* Build configuration list for PBXNativeTarget "ClippersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4913BEA21AE565700E7DB77 /* Debug */,
+				A4913BEB21AE565700E7DB77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4913BC121AE565500E7DB77 /* Project object */;
+}
