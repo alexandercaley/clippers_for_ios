@@ -1,6 +1,9 @@
 # clippers_ios_app
 postmates for haircuts
 
+Alexander Caley (Group of 1)
+Reviewer: Jesus Garnica
+
 
 PROPOSAL:
 
