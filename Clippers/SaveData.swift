@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct SaveData{
+class SaveData{
     let defaults = UserDefaults.standard
     var username:String
     
@@ -19,5 +19,9 @@ struct SaveData{
         else{
             username = ""
         }
+    }
+    
+    func saveAccount(email:String){
+        UserDefaults.standard.set(email, forKey: "username")
     }
 }

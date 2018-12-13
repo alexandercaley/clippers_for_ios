@@ -8,6 +8,7 @@ target 'Clippers' do
   # Pods for Clippers
 	pod 'Firebase/Core'
 	pod 'Firebase/Auth'
+    pod 'Firebase/Database'
 
   target 'ClippersTests' do
     inherit! :search_paths

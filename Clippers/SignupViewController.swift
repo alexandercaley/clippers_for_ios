@@ -8,15 +8,15 @@
 
 import UIKit
 import Firebase
+import FirebaseDatabase
 
 class SignupViewController: UIViewController{
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var password: UITextField!
     @IBOutlet weak var passConfirm: UITextField!
     
-    
     @IBAction func signUpButtonPressed(_ sender: Any) {
-        
+
         //Error
         if password.text != passConfirm.text{
             let alertController = UIAlertController(title: "Passwords Do Not Match", message: "Please re-enter password", preferredStyle: .alert)
@@ -31,7 +31,7 @@ class SignupViewController: UIViewController{
             Auth.auth().createUser(withEmail: email.text!, password: password.text!){ (user, error) in
 
                 if error == nil{
-                    UserDefaults.standard.set(self.email.text, forKey: "username")
+                    SaveData().saveAccount(email: self.email.text!)
                     self.performSegue(withIdentifier: "signUptoHome", sender: self)
                 }
                 else{
