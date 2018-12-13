@@ -1,0 +1,6 @@
+framework module Pods_Clippers {
+  umbrella header "Pods-Clippers-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A43D990721C233F100C2B70A /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43D990621C233F100C2B70A /* SignupViewController.swift */; };
+		A43D990921C23B7000C2B70A /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43D990821C23B7000C2B70A /* LogInViewController.swift */; };
+		A43D990B21C23E5B00C2B70A /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43D990A21C23E5B00C2B70A /* StartViewController.swift */; };
+		A43D990D21C2475300C2B70A /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43D990C21C2475300C2B70A /* AccountViewController.swift */; };
+		A45974E921C2F59100347108 /* SaveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45974E821C2F59100347108 /* SaveData.swift */; };
 		A4913BCD21AE565500E7DB77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4913BCC21AE565500E7DB77 /* AppDelegate.swift */; };
 		A4913BCF21AE565500E7DB77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4913BCE21AE565500E7DB77 /* ViewController.swift */; };
 		A4913BD221AE565500E7DB77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4913BD021AE565500E7DB77 /* Main.storyboard */; };
@@ -15,6 +20,9 @@
 		A4913BE221AE565700E7DB77 /* ClippersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4913BE121AE565700E7DB77 /* ClippersTests.swift */; };
 		A4913BEE21AE578F00E7DB77 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A4913BEC21AE578F00E7DB77 /* LICENSE */; };
 		A4913BEF21AE578F00E7DB77 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A4913BED21AE578F00E7DB77 /* README.md */; };
+		A4E985F321BCD619005864EB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4E985F221BCD619005864EB /* GoogleService-Info.plist */; };
+		AD38C1354FAFD15A6C99FBC2 /* Pods_ClippersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77203901A3CB2E7741FF570E /* Pods_ClippersTests.framework */; };
+		FFF4FDD172643B46D6B44A77 /* Pods_Clippers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0BA567CA5958ECD9931063C /* Pods_Clippers.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +36,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3BB8D86720581B8CAE6267F7 /* Pods-ClippersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClippersTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClippersTests/Pods-ClippersTests.release.xcconfig"; sourceTree = "<group>"; };
+		46B05A64FAD345AFFA382D86 /* Pods-Clippers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clippers.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Clippers/Pods-Clippers.debug.xcconfig"; sourceTree = "<group>"; };
+		77203901A3CB2E7741FF570E /* Pods_ClippersTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClippersTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C05B240B9206000021D109A /* Pods-Clippers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clippers.release.xcconfig"; path = "Pods/Target Support Files/Pods-Clippers/Pods-Clippers.release.xcconfig"; sourceTree = "<group>"; };
+		A43D990621C233F100C2B70A /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		A43D990821C23B7000C2B70A /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		A43D990A21C23E5B00C2B70A /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		A43D990C21C2475300C2B70A /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		A45974E821C2F59100347108 /* SaveData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveData.swift; sourceTree = "<group>"; };
 		A4913BC921AE565500E7DB77 /* Clippers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clippers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4913BCC21AE565500E7DB77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4913BCE21AE565500E7DB77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +57,9 @@
 		A4913BE321AE565700E7DB77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4913BEC21AE578F00E7DB77 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		A4913BED21AE578F00E7DB77 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A4E985F221BCD619005864EB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D803203CF7F06F3CB05B413C /* Pods-ClippersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClippersTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClippersTests/Pods-ClippersTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0BA567CA5958ECD9931063C /* Pods_Clippers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clippers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFF4FDD172643B46D6B44A77 /* Pods_Clippers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,12 +75,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD38C1354FAFD15A6C99FBC2 /* Pods_ClippersTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3157AB57ED265DB72459AA34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0BA567CA5958ECD9931063C /* Pods_Clippers.framework */,
+				77203901A3CB2E7741FF570E /* Pods_ClippersTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C0DE44BD63048C2A6B7E78F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46B05A64FAD345AFFA382D86 /* Pods-Clippers.debug.xcconfig */,
+				7C05B240B9206000021D109A /* Pods-Clippers.release.xcconfig */,
+				D803203CF7F06F3CB05B413C /* Pods-ClippersTests.debug.xcconfig */,
+				3BB8D86720581B8CAE6267F7 /* Pods-ClippersTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A4913BC021AE565500E7DB77 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +110,8 @@
 				A4913BCB21AE565500E7DB77 /* Clippers */,
 				A4913BE021AE565700E7DB77 /* ClippersTests */,
 				A4913BCA21AE565500E7DB77 /* Products */,
+				9C0DE44BD63048C2A6B7E78F /* Pods */,
+				3157AB57ED265DB72459AA34 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,8 +130,14 @@
 				A4913BCC21AE565500E7DB77 /* AppDelegate.swift */,
 				A4913BCE21AE565500E7DB77 /* ViewController.swift */,
 				A4913BD021AE565500E7DB77 /* Main.storyboard */,
+				A43D990C21C2475300C2B70A /* AccountViewController.swift */,
+				A43D990821C23B7000C2B70A /* LogInViewController.swift */,
+				A45974E821C2F59100347108 /* SaveData.swift */,
+				A43D990621C233F100C2B70A /* SignupViewController.swift */,
+				A43D990A21C23E5B00C2B70A /* StartViewController.swift */,
 				A4913BD321AE565700E7DB77 /* Assets.xcassets */,
 				A4913BD521AE565700E7DB77 /* LaunchScreen.storyboard */,
+				A4E985F221BCD619005864EB /* GoogleService-Info.plist */,
 				A4913BD821AE565700E7DB77 /* Info.plist */,
 			);
 			path = Clippers;
@@ -109,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4913BE621AE565700E7DB77 /* Build configuration list for PBXNativeTarget "Clippers" */;
 			buildPhases = (
+				F424B55DEE2E0055D452CFFE /* [CP] Check Pods Manifest.lock */,
 				A4913BC521AE565500E7DB77 /* Sources */,
 				A4913BC621AE565500E7DB77 /* Frameworks */,
 				A4913BC721AE565500E7DB77 /* Resources */,
+				E1C7F681D73B37A5F2270335 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +178,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4913BE921AE565700E7DB77 /* Build configuration list for PBXNativeTarget "ClippersTests" */;
 			buildPhases = (
+				D13BDAF5E18598701051211C /* [CP] Check Pods Manifest.lock */,
 				A4913BD921AE565700E7DB77 /* Sources */,
 				A4913BDA21AE565700E7DB77 /* Frameworks */,
 				A4913BDB21AE565700E7DB77 /* Resources */,
@@ -188,6 +241,7 @@
 				A4913BEF21AE578F00E7DB77 /* README.md in Resources */,
 				A4913BEE21AE578F00E7DB77 /* LICENSE in Resources */,
 				A4913BD221AE565500E7DB77 /* Main.storyboard in Resources */,
+				A4E985F321BCD619005864EB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,11 +254,89 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D13BDAF5E18598701051211C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClippersTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1C7F681D73B37A5F2270335 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Clippers/Pods-Clippers-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Clippers/Pods-Clippers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F424B55DEE2E0055D452CFFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Clippers-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A4913BC521AE565500E7DB77 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A43D990B21C23E5B00C2B70A /* StartViewController.swift in Sources */,
+				A43D990921C23B7000C2B70A /* LogInViewController.swift in Sources */,
+				A45974E921C2F59100347108 /* SaveData.swift in Sources */,
+				A43D990D21C2475300C2B70A /* AccountViewController.swift in Sources */,
+				A43D990721C233F100C2B70A /* SignupViewController.swift in Sources */,
 				A4913BCF21AE565500E7DB77 /* ViewController.swift in Sources */,
 				A4913BCD21AE565500E7DB77 /* AppDelegate.swift in Sources */,
 			);
@@ -366,6 +498,7 @@
 		};
 		A4913BE721AE565700E7DB77 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46B05A64FAD345AFFA382D86 /* Pods-Clippers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -384,6 +517,7 @@
 		};
 		A4913BE821AE565700E7DB77 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C05B240B9206000021D109A /* Pods-Clippers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -402,6 +536,7 @@
 		};
 		A4913BEA21AE565700E7DB77 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D803203CF7F06F3CB05B413C /* Pods-ClippersTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -423,6 +558,7 @@
 		};
 		A4913BEB21AE565700E7DB77 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BB8D86720581B8CAE6267F7 /* Pods-ClippersTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
