@@ -9,6 +9,8 @@ target 'Clippers' do
 	pod 'Firebase/Core'
 	pod 'Firebase/Auth'
     pod 'Firebase/Database'
+    pod 'Alamofire', '~> 4.8'
+    pod 'AlamofireImage', '~> 3.5'
 
   target 'ClippersTests' do
     inherit! :search_paths

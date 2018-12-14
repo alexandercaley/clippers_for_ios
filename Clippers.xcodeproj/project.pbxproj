@@ -12,8 +12,10 @@
 		A43D990B21C23E5B00C2B70A /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43D990A21C23E5B00C2B70A /* StartViewController.swift */; };
 		A43D990D21C2475300C2B70A /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43D990C21C2475300C2B70A /* AccountViewController.swift */; };
 		A45974E921C2F59100347108 /* SaveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45974E821C2F59100347108 /* SaveData.swift */; };
+		A479BE6721C3340800FAE413 /* ClippersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A479BE6621C3340800FAE413 /* ClippersViewController.swift */; };
+		A479BE6921C3366500FAE413 /* TableViewCellControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A479BE6821C3366500FAE413 /* TableViewCellControllerTableViewCell.swift */; };
+		A479BE6B21C3387900FAE413 /* Clippers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A479BE6A21C3387900FAE413 /* Clippers.swift */; };
 		A4913BCD21AE565500E7DB77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4913BCC21AE565500E7DB77 /* AppDelegate.swift */; };
-		A4913BCF21AE565500E7DB77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4913BCE21AE565500E7DB77 /* ViewController.swift */; };
 		A4913BD221AE565500E7DB77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4913BD021AE565500E7DB77 /* Main.storyboard */; };
 		A4913BD421AE565700E7DB77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4913BD321AE565700E7DB77 /* Assets.xcassets */; };
 		A4913BD721AE565700E7DB77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4913BD521AE565700E7DB77 /* LaunchScreen.storyboard */; };
@@ -45,9 +47,11 @@
 		A43D990A21C23E5B00C2B70A /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		A43D990C21C2475300C2B70A /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		A45974E821C2F59100347108 /* SaveData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveData.swift; sourceTree = "<group>"; };
+		A479BE6621C3340800FAE413 /* ClippersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClippersViewController.swift; sourceTree = "<group>"; };
+		A479BE6821C3366500FAE413 /* TableViewCellControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellControllerTableViewCell.swift; sourceTree = "<group>"; };
+		A479BE6A21C3387900FAE413 /* Clippers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clippers.swift; sourceTree = "<group>"; };
 		A4913BC921AE565500E7DB77 /* Clippers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clippers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4913BCC21AE565500E7DB77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A4913BCE21AE565500E7DB77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A4913BD121AE565500E7DB77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4913BD321AE565700E7DB77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4913BD621AE565700E7DB77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -128,8 +132,10 @@
 			isa = PBXGroup;
 			children = (
 				A4913BCC21AE565500E7DB77 /* AppDelegate.swift */,
-				A4913BCE21AE565500E7DB77 /* ViewController.swift */,
 				A4913BD021AE565500E7DB77 /* Main.storyboard */,
+				A479BE6821C3366500FAE413 /* TableViewCellControllerTableViewCell.swift */,
+				A479BE6621C3340800FAE413 /* ClippersViewController.swift */,
+				A479BE6A21C3387900FAE413 /* Clippers.swift */,
 				A43D990C21C2475300C2B70A /* AccountViewController.swift */,
 				A43D990821C23B7000C2B70A /* LogInViewController.swift */,
 				A45974E821C2F59100347108 /* SaveData.swift */,
@@ -286,6 +292,8 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Clippers/Pods-Clippers-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
@@ -295,6 +303,8 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
@@ -334,13 +344,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A479BE6721C3340800FAE413 /* ClippersViewController.swift in Sources */,
 				A43D990B21C23E5B00C2B70A /* StartViewController.swift in Sources */,
 				A43D990921C23B7000C2B70A /* LogInViewController.swift in Sources */,
+				A479BE6B21C3387900FAE413 /* Clippers.swift in Sources */,
 				A45974E921C2F59100347108 /* SaveData.swift in Sources */,
 				A43D990D21C2475300C2B70A /* AccountViewController.swift in Sources */,
 				A43D990721C233F100C2B70A /* SignupViewController.swift in Sources */,
-				A4913BCF21AE565500E7DB77 /* ViewController.swift in Sources */,
 				A4913BCD21AE565500E7DB77 /* AppDelegate.swift in Sources */,
+				A479BE6921C3366500FAE413 /* TableViewCellControllerTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
