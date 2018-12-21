@@ -38,32 +38,33 @@ class ClippersViewController: UIViewController, UITableViewDataSource, UITableVi
     }
     
     override func viewDidLoad() {
-        super .viewDidLoad()
-//        FirebaseApp.configure()
-//        
-//        let ref = Database.database().reference().child("workers")
-//        ref.observe(.value, with: {(snapshot) in
-//            
-//            if snapshot.childrenCount > 0{
-//                self.barbers.removeAll()
-//                
-//                for clippers in snapshot.children.allObjects as! [DataSnapshot]{
-//                    let clipperObject = clippers.value as? [String: AnyObject]
-//                    let clipperName = clipperObject?["name"]
-//                    let clipperEmail = clipperObject?["email"]
-//                    let clipperDistance = clipperObject?["distance"]
-//                    let clipperRating = clipperObject?["rating"]
-//                    let clipperYears = clipperObject?["years"]
-//                    let clipperPic = clipperObject?["img"]
-//                    
-//                    let clipper = Clippers(name: clipperName as! String?, email: clipperEmail as! String?, rating: clipperRating as! String?, distance: clipperDistance as! String?, years: clipperYears as! String?, clipperImage: clipperPic as! String?)
-//                    
-//                    self.barbers.append(clipper)
-//                }
-//                self.clippersTableView.reloadData()
-//            }
-//            
-//        })
+        super.viewDidLoad()
+        barbers.append(Clippers(name: "Jonah", email: "jonah@jonahnet.com", rating: "2", distance: "3"            , years: "1", clipperImage: "badbarber3")) 
+        FirebaseApp.configure()
+
+        let ref = Database.database().reference().child("workers")
+        ref.observe(.value, with: {(snapshot) in
+
+            if snapshot.childrenCount > 0{
+                self.barbers.removeAll()
+
+                for clippers in snapshot.children.allObjects as! [DataSnapshot]{
+                    let clipperObject = clippers.value as? [String: AnyObject]
+                    let clipperName = clipperObject?["name"]
+                    let clipperEmail = clipperObject?["email"]
+                    let clipperDistance = clipperObject?["distance"]
+                    let clipperRating = clipperObject?["rating"]
+                    let clipperYears = clipperObject?["years"]
+                    let clipperPic = clipperObject?["img"]
+
+                    let clipper = Clippers(name: clipperName as! String?, email: clipperEmail as! String?, rating: clipperRating as! String?, distance: clipperDistance as! String?, years: clipperYears as! String?, clipperImage: clipperPic as! String?)
+
+                    self.barbers.append(clipper)
+                }
+                self.clippersTableView.reloadData()
+            }
+
+        })
     }
     
 }
